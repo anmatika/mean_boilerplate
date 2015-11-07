@@ -1,0 +1,155 @@
+@import 'settings';
+
+a.navbar-brand {
+    margin-left: 25px;
+}
+
+#main-container {
+    min-height: 1200px;
+}
+
+.intro-text {
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.well{
+	hr {
+		border-color: black;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}
+
+.li_no_style {
+	list-style-type: none;
+}
+
+.a_no_style{
+    text-decoration: none;
+    &:hover, &:visited, &:link, &:active
+    {
+        text-decoration: none;
+    }
+}
+
+.hover_effect {
+    &:hover {
+        opacity: 0.85;
+         box-shadow: 2px 2px 2px black;
+        -webkit-box-shadow: 2px 2px 2px black;
+        -moz-box-shadow: 2px 2px 2px black;
+    }
+}
+
+.box {
+    box-shadow: 2px 2px 2px black;
+    -webkit-box-shadow: 2px 2px 2px black;
+    -moz-box-shadow: 2px 2px 2px black;
+
+    // font-family: $font_5, $font_6, $font_1, $font_2, $font_3, $font_4;
+    
+    -webkit-border-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 30px 25px;
+    position: relative;
+    
+    p:first-of-type {
+      margin-top: 40px;
+    }    
+    
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.margin-top-20 { margin-top:20px; }
+.margin-top-25 { margin-top: 25px }
+.margin-top-200 { margin-top: 200px }
+.margin-right-50 { margin-right: 50px }
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    font-family: 'Ubuntu-R', serif;
+    font-size: 30px;
+}
+
+hr {
+    border: 1px solid;
+    width: 80%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Franchise-Free-Bold';
+}
+
+h1 {
+    font-size: 5em;
+}
+h2 {
+    font-size: 4em;
+}
+h3 {
+    font-size: 3em;
+}
+h4 {
+    font-size: 2em;
+}
+h5 {
+    font-size: 1.1em;
+}
+
+footer {
+    
+    background-color: $navbarColor;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    height: 150px;
+    padding-top: 10px;
+    width: 100%;
+    a {
+        color: white !important;
+    }
+}
+
+pre.CICodeFormatter{
+    font-family:arial;
+    font-size:12px;
+    border:1px dashed #CCCCCC;
+    width:99%;
+    height:auto;
+    overflow:auto;
+    background:#f0f0f0;
+    line-height:20px;
+    background-image:URL('../images/codebg.gif');
+    padding:0px;
+    color:#000000;
+    text-align:left;
+    
+    code {
+        color:#000000;
+        word-wrap:normal;
+    }
+}
+
+.prettyprint {
+    color: white;
+}
+
+
+.padding-0 {
+    padding: 0 !important;
+}

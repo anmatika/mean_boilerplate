@@ -1,0 +1,47 @@
+nav {
+	border-bottom: 5px solid black !important;
+}
+.navbar-inverse {
+	background-color: pink;
+
+	a#logout {
+		cursor: pointer;
+	}
+
+	#cart_summary {
+		padding-top: 5px;
+		color: #fff;
+	}
+}
+
+.navbar-brand {
+	color: #fff !important;
+	position: relative;
+	margin-right: 30px;
+	
+	#home-icon {
+		position: absolute;
+		left: -10px;
+		top: 6px;
+	}
+
+	a:hover {
+		color: #9d9d9d;
+	}
+}
+
+.navbar-nav {
+	li {
+		margin-right: 15px;
+		a {
+			color: #fff !important;
+			font-family: 'Franchise-Free-Bold';
+		}
+		&:hover {
+			background-color: white;
+			a {
+				color: black !important;
+			}
+		}
+	}
+}

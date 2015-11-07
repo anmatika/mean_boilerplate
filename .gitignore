@@ -1,0 +1,11 @@
+client/node_modules
+client/bower_components
+client/dist
+client/.tmp
+client/.sass-cache
+server/bower_components
+server/node_modules
+server/bower_components
+server/dist
+server/spec/npm-debug.log
+server/.sass-cache
