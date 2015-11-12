@@ -6,7 +6,7 @@
  * @description
  * # thumbnailRepeater
  */
-angular.module('portfolioApp')
+angular.module('myApp')
   .directive('thumbnailRepeater', function () {
     return {
       templateUrl: 'template/thumbnailRepeater.html',

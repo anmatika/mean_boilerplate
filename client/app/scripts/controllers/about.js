@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the appApp
  */
-angular.module('portfolioApp')
+angular.module('myApp')
   .controller('AboutCtrl', function ($scope, dataSvc) {
     $scope.getData = function() {
 			dataSvc.getData('json/professional_history.json')

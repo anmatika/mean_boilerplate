@@ -1,5 +1,5 @@
 {
-  "name": "portfolioApp",
+  "name": "myApp",
   "subdomain": "amatika-dist",
   "scripts": {
     "start": "index.js"

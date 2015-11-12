@@ -7,7 +7,7 @@
  * # data service
  * Service in the app.
  */
-angular.module('portfolioApp')
+angular.module('myApp')
   .service('dataSvc', function($http, $q) {
     function getData(path) {
 

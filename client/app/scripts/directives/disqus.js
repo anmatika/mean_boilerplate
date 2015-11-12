@@ -6,7 +6,7 @@
  * @description
  * # thumbnailRepeater
  */
-angular.module('portfolioApp')
+angular.module('myApp')
   .directive('disqus', function () {
     return {
       templateUrl: 'template/disqus.html',

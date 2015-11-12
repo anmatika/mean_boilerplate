@@ -3,7 +3,7 @@
 describe('Controller: JeeCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('portfolioApp'));
+  beforeEach(module('myApp'));
 
   var JeeCtrl,
     scope;

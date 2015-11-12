@@ -7,7 +7,7 @@
  * # ContactCtrl
  * Controller of the app
  */
-angular.module('portfolioApp')
+angular.module('myApp')
   .controller('ContactCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

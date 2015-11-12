@@ -7,7 +7,7 @@
  * # NavCtrl
  * Controller of the app
  */
-angular.module('portfolioApp')
+angular.module('myApp')
 	.controller('NavCtrl', function($scope, $location, $cookies, $rootScope, loginSvc) {
 
 		$scope.logout = function() {
