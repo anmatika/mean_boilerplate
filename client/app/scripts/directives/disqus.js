@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc directive
- * @name appApp.directive:thumbnailRepeater
+ * @name myApp.directive:thumbnailRepeater
  * @description
  * # thumbnailRepeater
  */

@@ -28,10 +28,6 @@ module.exports = function(config) {
       'bower_components/angular-touch/angular-touch.js',
       'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       'bower_components/ngcart/dist/ngCart.js',
-      'bower_components/angular-translate/angular-translate.js',
-      'bower_components/zeroclipboard/dist/ZeroClipboard.js',
-      'bower_components/angular-zeroclipboard/src/angular-zeroclipboard.js',
-      'bower_components/angular-highlightjs/build/angular-highlightjs.js',
       'app/scripts/**/*.js',
       // 'app/scripts/app.js',
       // 'app/scripts/controllers/contact.js',
@@ -65,13 +61,6 @@ module.exports = function(config) {
       'karma-spec-reporter'
     ],
     reporters: ['spec'],
-    specReporter: {
-        maxLogLines: 5,         // limit number of lines logged per test
-        suppressErrorSummary: true,  // do not print error summary
-        suppressFailed: false,  // do not print information about failed tests
-        suppressPassed: false,  // do not print information about passed tests
-        suppressSkipped: true  // do not print information about skipped tests
-    },  
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
     singleRun: false,
