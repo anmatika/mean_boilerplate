@@ -32,26 +32,7 @@ module.exports = function (grunt) {
       bower: {
         files: ['bower.json'],
         tasks: ['wiredep']
-      },
-      js: {
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
-        tasks: ['newer:jshint:all'],
-        options: {
-          livereload: '<%= connect.options.livereload %>'
-        }
-      },
-      coffee: {
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.{coffee,litcoffee,coffee.md}'],
-        tasks: ['newer:coffee:dist']
-      },
-      jsTest: {
-        files: ['test/spec/{,*/}*.js'],
-        tasks: ['newer:jshint:test', 'karma']
-      },
-      styles: {
-        files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
-        tasks: ['newer:copy:styles', 'autoprefixer']
-      },
+      },      
       compass: {
         files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         tasks: ['compass:server', 'autoprefixer']
@@ -61,12 +42,10 @@ module.exports = function (grunt) {
       },
       livereload: {
         options: {
-          livereload: '<%= connect.options.livereload %>'
+          livereload: true
         },
-        files: [
-          '<%= yeoman.app %>/{,*/}*.html',
-          '.tmp/styles/{,*/}*.css',
-          '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+        files: [          
+          '.tmp/styles/{,*/}*.css'
         ]
       },
     },
@@ -85,65 +64,8 @@ module.exports = function (grunt) {
                     browser: "chrome"
                 }
             }
-      }
-      // firefox: {
-      //     options: {
-      //         args: {
-      //             browser: "firefox"
-      //         }
-      //     }
-      //   }
-    },
-    // The actual grunt server settings
-    connect: {
-      options: {
-        port: 9000,
-        // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'localhost',
-        livereload: 35729
-      },
-      livereload: {
-        options: {
-          open: true,
-          middleware: function (connect) {
-            
-            var defaultMiddleware = [                          
-              connect.static('.tmp'),
-              connect().use(
-                '/bower_components',
-                connect.static('./bower_components')
-              ),
-              connect.static(appConfig.app),
-            ]
-        
-            return defaultMiddleware;
-          }
-        }
-      },
-      test: {
-        options: {
-          port: 9001,
-          middleware: function (connect) {
-            return [
-              connect.static('.tmp'),
-              connect.static('test'),
-              connect().use(
-                '/bower_components',
-                connect.static('./bower_components')
-              ),
-              connect.static(appConfig.app)
-            ];
-          }
-        }
-      },
-      dist: {
-        options: {
-        open: true,
-        base: '<%= yeoman.dist %>'
-        }
-      },      
-    },
-
+      }      
+    },   
     // Make sure code styles are up to par and there are no obvious mistakes
     jshint: {
       options: {
@@ -298,34 +220,7 @@ module.exports = function (grunt) {
       options: {
         assetsDirs: ['<%= yeoman.dist %>','<%= yeoman.dist %>/images']
       }
-    },
-
-    // The following *-min tasks will produce minified files in the dist folder
-    // By default, your `index.html`'s <!-- Usemin block --> will take care of
-    // minification. These next options are pre-configured if you do not wish
-    // to use the Usemin blocks.
-    // cssmin: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.dist %>/styles/main.css': [
-    //         '.tmp/styles/{,*/}*.css'
-    //       ]
-    //     }
-    //   }
-    // },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.dist %>/scripts/scripts.js': [
-    //         '<%= yeoman.dist %>/scripts/scripts.js'
-    //       ]
-    //     }
-    //   }
-    // },
-    // concat: {
-    //   dist: {}
-    // },
-
+    },    
     imagemin: {
       dist: {
         files: [{
@@ -506,8 +401,7 @@ module.exports = function (grunt) {
   
 
   grunt.registerTask('build', [
-    'clean:dist',
-    'coffee:dist',
+    'clean:dist',    
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
