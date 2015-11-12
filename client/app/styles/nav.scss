@@ -1,8 +1,10 @@
+@import 'settings';
+
 nav {
 	border-bottom: 5px solid black !important;
 }
 .navbar-inverse {
-	background-color: pink;
+	background-color: $navbarColor;
 
 	a#logout {
 		cursor: pointer;

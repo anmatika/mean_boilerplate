@@ -16,21 +16,16 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><h4>Niinalla on asiaa</h4></li>
-        <!-- <li class="hvr-underline-from-center">
-          <a href="#/cv">{{ 'aboutMe' | translate }}</a>
-        </li>
+      <ul class="nav navbar-nav">        
         <li class="hvr-underline-from-center">
-          <a href="#/blog">{{ 'blog' | translate }}</a>
-        </li>
+          <a href="#/cv">{{ 'about' | translate }}</a>
+        </li>       
         <li class="hvr-underline-from-center">
           <a ng-href="#/contact">{{'contact' | translate}}</a>
-        </li> -->
+        </li>
       </ul>      
       <div class="row">
-        <div ng-show="username.length > 0">
-        
+        <div ng-show="username.length > 0">        
           <a class="pull-right" id="logout" href="/logout">{{'logout' | translate}}</a>
           <span class="pull-right">&nbsp;|&nbsp;</span>
           <div class="pull-right"><a href="/secure/account">{{'account' | translate}}</a></div>

@@ -113,7 +113,7 @@ angular
       });
 
       $translateProvider.translations('en', {
-        aboutMe: 'CV',
+        about: 'About',
         blog: 'Blog',
         services: 'Services',
         contact: 'Contact',

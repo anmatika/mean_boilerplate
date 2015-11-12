@@ -1,34 +1,3 @@
 <div id="main" class="container">
-    <fieldset>
-        <div class="row">
-            <h1 id="title"></h1>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>Niina kysyy:</h2>
-            </div>
-        </div>
-        <div class="row" ng-repeat="q in questions">
-            <div class="col-sm-4">
-                <label>{{ q.label }}</label>
-            </div>
-            <button class="btn btn-success" ng-click="setActive(q.yes, q)" ng-class="{ 'active' : isActive(q.yes) }">{{ q.yes.text }}</button>
-            <button class="btn btn-danger" ng-click="setActive(q.no, q)" ng-class="{ 'active' : isActive(q.no) }">{{ q.no.text }}</button>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-sm-offset-4">
-                <button class="btn btn-warning" ng-click="submit(questions)">Submit</button>
-            </div>
-        </div>
         
-        <br>
-        <br>
-        <div class="row" ng-if="result">
-            <div class="col-sm-12">
-                <div class="well">{{ result }}</div>
-            </div>
-        </div>
-    </fieldset>
 </div>
