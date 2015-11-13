@@ -82,14 +82,14 @@ server {
         index index.html index.htm;
 
         # Make site accessible from http://localhost/
-        server_name tukiyhdistyskarvinen.fi;
+        server_name foo.fi;
 
         location / {
          proxy_pass http://localhost:3000;
         }
 }
 # Create symbolic link from sites-available to site-enabled
-ln -s /etc/nginx/sites-available/tukiyhdistyskarvinen.fi /etc/nginx/sites-enabled/tukiyhdistyskarvinen.fi
+ln -s /etc/nginx/sites-available/foo.fi /etc/nginx/sites-enabled/foo.fi
 
 Problems and solutions:
 BadValue Invalid or no user locale set. Please ensure LANG and/or LC_* environment variables are set correctly
