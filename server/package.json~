@@ -5,7 +5,7 @@
   "scripts": {
     "start": "SET NODE_ENV=production&&nodemon ./bin/www",
     "start-unix": "NODE_ENV=production nodemon ./bin/www",
-    "test": "SET NODE_ENV=development&&nodemon ./bin/www"
+    "test": "SET NODE_ENV=development&&nodemon ./bin/www",
     "test-unix": "NODE_ENV=development nodemon ./bin/www"
   },
   "dependencies": {

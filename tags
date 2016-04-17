@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+app	client/Gruntfile.js	/^    app: require('.\/bower.json').appPath || 'app',$/;"	p	class:module.exports.appConfig
+app	index.js	/^var app = express();$/;"	v
+app	server/app.js	/^var app = express();$/;"	v
+bodyParser	server/app.js	/^var bodyParser = require('body-parser');$/;"	v
+chromeDriver	client/test/protractor.conf.js	/^  chromeDriver: null,$/;"	p	class:exports.config
+cookieParser	server/app.js	/^var cookieParser = require('cookie-parser');$/;"	v
+express	index.js	/^var express = require('express');$/;"	v
+express	server/app.js	/^var express = require('express');$/;"	v
+flash	server/app.js	/^var flash = require('connect-flash');$/;"	v
+i18n	server/app.js	/^var i18n = require('i18next');$/;"	v
+logger	server/app.js	/^var logger = require('morgan');$/;"	v
+module.exports	client/Gruntfile.js	/^module.exports = function (grunt) {$/;"	f
+module.exports	client/test/karma.conf.js	/^module.exports = function(config) {$/;"	f
+module.exports	server/routes/main.js	/^module.exports = function(router) {$/;"	f
+path	index.js	/^var path = require('path');$/;"	v
+path	server/app.js	/^var path = require('path');$/;"	v
+router	server/app.js	/^var router = express.Router();$/;"	v
+routes	index.js	/^var routes = require('.\/server\/routes\/routes');$/;"	v
+seleniumArgs	client/test/protractor.conf.js	/^  seleniumArgs: [],$/;"	p	class:exports.config
+seleniumPort	client/test/protractor.conf.js	/^  seleniumPort: null,$/;"	p	class:exports.config
+seleniumServerJar	client/test/protractor.conf.js	/^  seleniumServerJar: null,$/;"	p	class:exports.config
+superagent	server/spec/routes.spec.js	/^var superagent = require('superagent')$/;"	v

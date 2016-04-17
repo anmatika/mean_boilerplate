@@ -1,0 +1,995 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/vagrant/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /vagrant/server/package.json
+verbose loadDefaults server@0.0.0
+verbose readDependencies: using package.json deps
+verbose where, deps [ '/vagrant/server',
+verbose where, deps   [ 'bcrypt-nodejs',
+verbose where, deps     'body-parser',
+verbose where, deps     'connect-flash',
+verbose where, deps     'cookie-parser',
+verbose where, deps     'debug',
+verbose where, deps     'ejs',
+verbose where, deps     'expect.js',
+verbose where, deps     'express',
+verbose where, deps     'express-handlebars',
+verbose where, deps     'express-session',
+verbose where, deps     'grunt',
+verbose where, deps     'grunt-autoprefixer',
+verbose where, deps     'grunt-contrib-compass',
+verbose where, deps     'i18n',
+verbose where, deps     'i18next',
+verbose where, deps     'jade',
+verbose where, deps     'jasmine-node-karma',
+verbose where, deps     'load-grunt-tasks',
+verbose where, deps     'mocha',
+verbose where, deps     'mongoose',
+verbose where, deps     'morgan',
+verbose where, deps     'passport',
+verbose where, deps     'passport-facebook',
+verbose where, deps     'passport-local',
+verbose where, deps     'paypal-rest-sdk',
+verbose where, deps     'promised-io',
+verbose where, deps     'serve-favicon',
+verbose where, deps     'superagent',
+verbose where, deps     'time-grunt',
+verbose where, deps     'validator',
+verbose where, deps     'grunt-contrib-watch' ] ]
+verbose from cache /vagrant/server/package.json
+info preinstall server@0.0.0
+verbose caching /vagrant/server/node_modules/mustache/package.json
+verbose loadDefaults mustache@2.2.1
+verbose caching /vagrant/server/node_modules/nan/package.json
+verbose loadDefaults nan@1.8.4
+verbose caching /vagrant/server/node_modules/qs/package.json
+verbose loadDefaults qs@2.2.4
+verbose caching /vagrant/server/node_modules/fileset/package.json
+verbose loadDefaults fileset@0.1.8
+verbose caching /vagrant/server/node_modules/fs-extra/package.json
+verbose loadDefaults fs-extra@0.9.1
+verbose caching /vagrant/server/node_modules/is-promise/package.json
+verbose loadDefaults is-promise@1.0.1
+verbose caching /vagrant/server/node_modules/cookiejar/package.json
+verbose loadDefaults cookiejar@2.0.1
+verbose caching /vagrant/server/node_modules/brace-expansion/package.json
+verbose loadDefaults brace-expansion@1.1.3
+verbose caching /vagrant/server/node_modules/grunt-legacy-util/package.json
+verbose loadDefaults grunt-legacy-util@0.2.0
+verbose caching /vagrant/server/node_modules/passport-local/package.json
+verbose caching /vagrant/server/node_modules/foreach/package.json
+verbose loadDefaults foreach@2.0.5
+verbose caching /vagrant/server/node_modules/i18next-client/package.json
+verbose loadDefaults i18next-client@1.10.3
+verbose caching /vagrant/server/node_modules/jasmine-reporters/package.json
+verbose loadDefaults jasmine-reporters@2.1.1
+verbose caching /vagrant/server/node_modules/autoprefixer/package.json
+verbose loadDefaults autoprefixer@1.3.1
+verbose caching /vagrant/server/node_modules/dargs/package.json
+verbose loadDefaults dargs@0.1.0
+verbose caching /vagrant/server/node_modules/strip-ansi/package.json
+verbose loadDefaults strip-ansi@0.1.1
+verbose caching /vagrant/server/node_modules/xtend/package.json
+verbose loadDefaults xtend@4.0.1
+verbose caching /vagrant/server/node_modules/promise/package.json
+verbose loadDefaults promise@6.1.0
+verbose caching /vagrant/server/node_modules/process-nextick-args/package.json
+verbose loadDefaults process-nextick-args@1.0.6
+verbose caching /vagrant/server/node_modules/pkginfo/package.json
+verbose caching /vagrant/server/node_modules/source-map/package.json
+verbose loadDefaults source-map@0.1.43
+verbose caching /vagrant/server/node_modules/esmangle-evaluator/package.json
+verbose loadDefaults esmangle-evaluator@1.0.0
+verbose caching /vagrant/server/node_modules/tmp/package.json
+verbose loadDefaults tmp@0.0.23
+verbose caching /vagrant/server/node_modules/private/package.json
+verbose loadDefaults private@0.1.6
+verbose caching /vagrant/server/node_modules/promised-io/package.json
+verbose loadDefaults promised-io@0.3.5
+verbose caching /vagrant/server/node_modules/character-parser/package.json
+verbose loadDefaults character-parser@1.2.0
+verbose caching /vagrant/server/node_modules/express-session/package.json
+verbose loadDefaults express-session@1.0.4
+verbose caching /vagrant/server/node_modules/wordwrap/package.json
+verbose loadDefaults wordwrap@0.0.3
+verbose caching /vagrant/server/node_modules/mime-types/package.json
+verbose loadDefaults mime-types@2.0.14
+verbose caching /vagrant/server/node_modules/serve-favicon/package.json
+verbose loadDefaults serve-favicon@2.1.7
+verbose caching /vagrant/server/node_modules/ejs/package.json
+verbose loadDefaults ejs@2.1.4
+verbose caching /vagrant/server/node_modules/grunt-legacy-log/package.json
+verbose loadDefaults grunt-legacy-log@0.1.3
+verbose caching /vagrant/server/node_modules/reduce-component/package.json
+verbose loadDefaults reduce-component@1.0.1
+verbose caching /vagrant/server/node_modules/merge-descriptors/package.json
+verbose loadDefaults merge-descriptors@0.0.2
+verbose caching /vagrant/server/node_modules/camelcase/package.json
+verbose loadDefaults camelcase@1.2.1
+verbose caching /vagrant/server/node_modules/lodash/package.json
+verbose loadDefaults lodash@0.9.2
+verbose caching /vagrant/server/node_modules/requirejs/package.json
+verbose loadDefaults requirejs@2.2.0
+verbose caching /vagrant/server/node_modules/supports-color/package.json
+verbose loadDefaults supports-color@1.2.0
+verbose caching /vagrant/server/node_modules/recast/package.json
+verbose loadDefaults recast@0.11.5
+verbose caching /vagrant/server/node_modules/component-emitter/package.json
+verbose loadDefaults component-emitter@1.1.2
+verbose caching /vagrant/server/node_modules/grunt-legacy-log-utils/package.json
+verbose loadDefaults grunt-legacy-log-utils@0.1.1
+verbose caching /vagrant/server/node_modules/optimist/package.json
+verbose loadDefaults optimist@0.3.7
+verbose caching /vagrant/server/node_modules/oauth/package.json
+verbose loadDefaults oauth@0.9.14
+verbose caching /vagrant/server/node_modules/morgan/package.json
+verbose loadDefaults morgan@1.3.2
+verbose caching /vagrant/server/node_modules/expect.js/package.json
+verbose loadDefaults expect.js@0.3.1
+verbose caching /vagrant/server/node_modules/keygrip/package.json
+verbose loadDefaults keygrip@1.0.1
+verbose caching /vagrant/server/node_modules/nopt/package.json
+verbose caching /vagrant/server/node_modules/mocha/package.json
+verbose loadDefaults mocha@2.4.5
+verbose caching /vagrant/server/node_modules/minimatch/package.json
+verbose loadDefaults minimatch@3.0.0
+verbose caching /vagrant/server/node_modules/paypal-rest-sdk/package.json
+verbose loadDefaults paypal-rest-sdk@1.6.8
+verbose caching /vagrant/server/node_modules/js-yaml/package.json
+verbose loadDefaults js-yaml@2.0.5
+verbose caching /vagrant/server/node_modules/decamelize/package.json
+verbose loadDefaults decamelize@1.2.0
+verbose caching /vagrant/server/node_modules/escape-html/package.json
+verbose loadDefaults escape-html@1.0.1
+verbose caching /vagrant/server/node_modules/cookies/package.json
+verbose loadDefaults cookies@0.6.1
+verbose caching /vagrant/server/node_modules/constantinople/package.json
+verbose loadDefaults constantinople@2.0.1
+verbose caching /vagrant/server/node_modules/uuid/package.json
+verbose loadDefaults uuid@2.0.2
+verbose caching /vagrant/server/node_modules/growl/package.json
+verbose loadDefaults growl@1.8.1
+verbose caching /vagrant/server/node_modules/mongoose/package.json
+verbose loadDefaults mongoose@3.8.39
+verbose caching /vagrant/server/node_modules/on-finished/package.json
+verbose loadDefaults on-finished@2.1.0
+verbose caching /vagrant/server/node_modules/formidable/package.json
+verbose loadDefaults formidable@1.0.14
+verbose caching /vagrant/server/node_modules/ee-first/package.json
+verbose loadDefaults ee-first@1.0.5
+verbose caching /vagrant/server/node_modules/which/package.json
+verbose loadDefaults which@1.0.9
+verbose caching /vagrant/server/node_modules/mquery/package.json
+verbose loadDefaults mquery@1.6.1
+verbose caching /vagrant/server/node_modules/faye-websocket/package.json
+verbose loadDefaults faye-websocket@0.4.4
+verbose caching /vagrant/server/node_modules/uid2/package.json
+verbose loadDefaults uid2@0.0.3
+verbose caching /vagrant/server/node_modules/passport-strategy/package.json
+verbose loadDefaults passport-strategy@1.0.0
+verbose caching /vagrant/server/node_modules/type-is/package.json
+verbose loadDefaults type-is@1.5.7
+verbose caching /vagrant/server/node_modules/express-handlebars/package.json
+verbose loadDefaults express-handlebars@1.2.2
+verbose caching /vagrant/server/node_modules/body-parser/package.json
+verbose loadDefaults body-parser@1.8.4
+verbose caching /vagrant/server/node_modules/crc/package.json
+verbose loadDefaults crc@3.0.0
+verbose caching /vagrant/server/node_modules/wrappy/package.json
+verbose loadDefaults wrappy@1.0.1
+verbose caching /vagrant/server/node_modules/base64-js/package.json
+verbose loadDefaults base64-js@0.0.8
+verbose caching /vagrant/server/node_modules/passport-facebook/package.json
+verbose loadDefaults passport-facebook@1.0.3
+verbose caching /vagrant/server/node_modules/muri/package.json
+verbose loadDefaults muri@1.1.0
+verbose caching /vagrant/server/node_modules/globule/package.json
+verbose loadDefaults globule@0.1.0
+verbose caching /vagrant/server/node_modules/eventemitter2/package.json
+verbose loadDefaults eventemitter2@0.4.14
+verbose caching /vagrant/server/node_modules/escape-string-regexp/package.json
+verbose loadDefaults escape-string-regexp@1.0.2
+verbose caching /vagrant/server/node_modules/mpromise/package.json
+verbose loadDefaults mpromise@0.4.3
+verbose caching /vagrant/server/node_modules/sliced/package.json
+verbose loadDefaults sliced@0.0.5
+verbose caching /vagrant/server/node_modules/path-to-regexp/package.json
+verbose loadDefaults path-to-regexp@0.1.3
+verbose caching /vagrant/server/node_modules/text-table/package.json
+verbose loadDefaults text-table@0.2.0
+verbose caching /vagrant/server/node_modules/bcrypt-nodejs/package.json
+verbose loadDefaults bcrypt-nodejs@0.0.3
+verbose caching /vagrant/server/node_modules/asap/package.json
+verbose loadDefaults asap@1.0.0
+verbose caching /vagrant/server/node_modules/serve-static/package.json
+verbose loadDefaults serve-static@1.6.5
+verbose caching /vagrant/server/node_modules/utils-merge/package.json
+verbose loadDefaults utils-merge@1.0.0
+verbose caching /vagrant/server/node_modules/mongodb/package.json
+verbose loadDefaults mongodb@1.4.38
+verbose caching /vagrant/server/node_modules/uglify-js/package.json
+verbose loadDefaults uglify-js@2.3.6
+verbose caching /vagrant/server/node_modules/mpath/package.json
+verbose loadDefaults mpath@0.1.1
+verbose caching /vagrant/server/node_modules/ipaddr.js/package.json
+verbose loadDefaults ipaddr.js@1.0.5
+verbose caching /vagrant/server/node_modules/grunt-contrib-watch/package.json
+verbose loadDefaults grunt-contrib-watch@0.6.1
+verbose caching /vagrant/server/node_modules/bluebird/package.json
+verbose loadDefaults bluebird@2.9.26
+verbose caching /vagrant/server/node_modules/coffee-script/package.json
+verbose caching /vagrant/server/node_modules/grunt-autoprefixer/package.json
+verbose loadDefaults grunt-autoprefixer@0.7.6
+verbose caching /vagrant/server/node_modules/uglify-to-browserify/package.json
+verbose loadDefaults uglify-to-browserify@1.0.2
+verbose caching /vagrant/server/node_modules/object-keys/package.json
+verbose loadDefaults object-keys@1.0.9
+verbose caching /vagrant/server/node_modules/abbrev/package.json
+verbose loadDefaults abbrev@1.0.7
+verbose caching /vagrant/server/node_modules/pretty-ms/package.json
+verbose loadDefaults pretty-ms@0.1.0
+verbose caching /vagrant/server/node_modules/exit/package.json
+verbose loadDefaults exit@0.1.2
+verbose caching /vagrant/server/node_modules/time-grunt/package.json
+verbose loadDefaults time-grunt@0.3.2
+verbose caching /vagrant/server/node_modules/esprima/package.json
+verbose loadDefaults esprima@1.0.4
+verbose caching /vagrant/server/node_modules/isarray/package.json
+verbose loadDefaults isarray@1.0.0
+verbose caching /vagrant/server/node_modules/colors/package.json
+verbose loadDefaults colors@0.6.2
+verbose caching /vagrant/server/node_modules/methods/package.json
+verbose loadDefaults methods@1.1.0
+verbose caching /vagrant/server/node_modules/json5/package.json
+verbose caching /vagrant/server/node_modules/sprintf/package.json
+verbose loadDefaults sprintf@0.1.5
+verbose caching /vagrant/server/node_modules/bytes/package.json
+verbose loadDefaults bytes@1.0.0
+verbose caching /vagrant/server/node_modules/css/package.json
+verbose loadDefaults css@1.0.8
+verbose caching /vagrant/server/node_modules/etag/package.json
+verbose loadDefaults etag@1.4.0
+verbose caching /vagrant/server/node_modules/underscore.string/package.json
+verbose loadDefaults underscore.string@2.2.1
+verbose caching /vagrant/server/node_modules/passport-oauth2/package.json
+verbose loadDefaults passport-oauth2@1.3.0
+verbose caching /vagrant/server/node_modules/multimatch/package.json
+verbose loadDefaults multimatch@0.1.0
+verbose caching /vagrant/server/node_modules/css-parse/package.json
+verbose loadDefaults css-parse@1.0.4
+verbose caching /vagrant/server/node_modules/debug/package.json
+verbose loadDefaults debug@2.0.0
+verbose caching /vagrant/server/node_modules/inflight/package.json
+verbose loadDefaults inflight@1.0.4
+verbose caching /vagrant/server/node_modules/basic-auth/package.json
+verbose loadDefaults basic-auth@1.0.0
+verbose caching /vagrant/server/node_modules/superagent/package.json
+verbose loadDefaults superagent@0.21.0
+verbose caching /vagrant/server/node_modules/mkdirp/package.json
+verbose loadDefaults mkdirp@0.5.1
+verbose caching /vagrant/server/node_modules/caniuse-db/package.json
+verbose loadDefaults caniuse-db@1.0.30000454
+verbose caching /vagrant/server/node_modules/jade/package.json
+verbose loadDefaults jade@1.6.0
+verbose caching /vagrant/server/node_modules/once/package.json
+verbose loadDefaults once@1.3.3
+verbose caching /vagrant/server/node_modules/inherits/package.json
+verbose loadDefaults inherits@2.0.1
+verbose caching /vagrant/server/node_modules/validator/package.json
+verbose loadDefaults validator@3.43.0
+verbose caching /vagrant/server/node_modules/accepts/package.json
+verbose loadDefaults accepts@1.1.4
+verbose caching /vagrant/server/node_modules/handlebars/package.json
+verbose loadDefaults handlebars@2.0.0
+verbose caching /vagrant/server/node_modules/monocle/package.json
+verbose loadDefaults monocle@1.1.51
+verbose caching /vagrant/server/node_modules/glob/package.json
+verbose loadDefaults glob@5.0.15
+verbose caching /vagrant/server/node_modules/util-deprecate/package.json
+verbose loadDefaults util-deprecate@1.0.2
+verbose caching /vagrant/server/node_modules/chalk/package.json
+verbose loadDefaults chalk@0.4.0
+verbose caching /vagrant/server/node_modules/amdefine/package.json
+verbose loadDefaults amdefine@1.0.0
+verbose caching /vagrant/server/node_modules/has-color/package.json
+verbose loadDefaults has-color@0.1.7
+verbose caching /vagrant/server/node_modules/grunt-contrib-compass/package.json
+verbose loadDefaults grunt-contrib-compass@0.7.2
+verbose caching /vagrant/server/node_modules/load-grunt-tasks/package.json
+verbose loadDefaults load-grunt-tasks@0.4.0
+verbose caching /vagrant/server/node_modules/balanced-match/package.json
+verbose loadDefaults balanced-match@0.3.0
+verbose caching /vagrant/server/node_modules/extend/package.json
+verbose loadDefaults extend@1.2.1
+verbose caching /vagrant/server/node_modules/jasmine-node-karma/package.json
+verbose loadDefaults jasmine-node-karma@1.6.1
+verbose caching /vagrant/server/node_modules/with/package.json
+verbose loadDefaults with@3.0.1
+verbose caching /vagrant/server/node_modules/passport/package.json
+verbose loadDefaults passport@0.1.18
+verbose caching /vagrant/server/node_modules/hooks/package.json
+verbose caching /vagrant/server/node_modules/hooker/package.json
+verbose caching /vagrant/server/node_modules/forwarded/package.json
+verbose loadDefaults forwarded@0.1.0
+verbose caching /vagrant/server/node_modules/ncp/package.json
+verbose loadDefaults ncp@0.5.1
+verbose caching /vagrant/server/node_modules/ms/package.json
+verbose loadDefaults ms@0.6.2
+verbose caching /vagrant/server/node_modules/vary/package.json
+verbose loadDefaults vary@1.0.1
+verbose caching /vagrant/server/node_modules/underscore/package.json
+verbose loadDefaults underscore@1.7.0
+verbose caching /vagrant/server/node_modules/media-typer/package.json
+verbose loadDefaults media-typer@0.3.0
+verbose caching /vagrant/server/node_modules/path-is-absolute/package.json
+verbose loadDefaults path-is-absolute@1.0.0
+verbose caching /vagrant/server/node_modules/window-size/package.json
+verbose loadDefaults window-size@0.1.0
+verbose caching /vagrant/server/node_modules/unreachable-branch-transform/package.json
+verbose loadDefaults unreachable-branch-transform@0.5.1
+verbose caching /vagrant/server/node_modules/readable-stream/package.json
+verbose loadDefaults readable-stream@2.1.0
+verbose caching /vagrant/server/node_modules/graceful-fs/package.json
+verbose loadDefaults graceful-fs@3.0.8
+verbose caching /vagrant/server/node_modules/diff/package.json
+verbose loadDefaults diff@1.0.8
+verbose caching /vagrant/server/node_modules/cookie-signature/package.json
+verbose loadDefaults cookie-signature@1.0.6
+verbose caching /vagrant/server/node_modules/getobject/package.json
+verbose loadDefaults getobject@0.1.0
+verbose caching /vagrant/server/node_modules/finalhandler/package.json
+verbose loadDefaults finalhandler@0.2.0
+verbose caching /vagrant/server/node_modules/argparse/package.json
+verbose loadDefaults argparse@0.1.16
+verbose caching /vagrant/server/node_modules/walkdir/package.json
+verbose loadDefaults walkdir@0.0.11
+verbose caching /vagrant/server/node_modules/mime-db/package.json
+verbose loadDefaults mime-db@1.12.0
+verbose caching /vagrant/server/node_modules/express/package.json
+verbose loadDefaults express@4.9.8
+verbose caching /vagrant/server/node_modules/readdirp/package.json
+verbose loadDefaults readdirp@0.2.5
+verbose caching /vagrant/server/node_modules/grunt/package.json
+verbose loadDefaults grunt@0.4.5
+verbose caching /vagrant/server/node_modules/depd/package.json
+verbose loadDefaults depd@0.4.5
+verbose caching /vagrant/server/node_modules/string_decoder/package.json
+verbose loadDefaults string_decoder@0.10.31
+verbose caching /vagrant/server/node_modules/raw-body/package.json
+verbose loadDefaults raw-body@1.3.0
+verbose caching /vagrant/server/node_modules/range-parser/package.json
+verbose loadDefaults range-parser@1.0.3
+verbose caching /vagrant/server/node_modules/noptify/package.json
+verbose loadDefaults noptify@0.0.3
+verbose caching /vagrant/server/node_modules/mime/package.json
+verbose loadDefaults mime@1.2.11
+verbose caching /vagrant/server/node_modules/findup-sync/package.json
+verbose loadDefaults findup-sync@0.1.3
+verbose caching /vagrant/server/node_modules/regexp-clone/package.json
+verbose loadDefaults regexp-clone@0.0.1
+verbose caching /vagrant/server/node_modules/i18n/package.json
+verbose loadDefaults i18n@0.5.0
+verbose caching /vagrant/server/node_modules/connect-flash/package.json
+verbose loadDefaults connect-flash@0.1.1
+verbose caching /vagrant/server/node_modules/postcss/package.json
+verbose loadDefaults postcss@0.3.5
+verbose caching /vagrant/server/node_modules/cookie/package.json
+verbose loadDefaults cookie@0.1.3
+verbose caching /vagrant/server/node_modules/inline-process-browser/package.json
+verbose loadDefaults inline-process-browser@2.0.1
+verbose caching /vagrant/server/node_modules/ast-types/package.json
+verbose loadDefaults ast-types@0.8.16
+verbose caching /vagrant/server/node_modules/async/package.json
+verbose loadDefaults async@0.2.10
+verbose caching /vagrant/server/node_modules/sigmund/package.json
+verbose loadDefaults sigmund@1.0.1
+verbose caching /vagrant/server/node_modules/css-stringify/package.json
+verbose loadDefaults css-stringify@1.0.5
+verbose caching /vagrant/server/node_modules/commander/package.json
+verbose loadDefaults commander@2.1.0
+verbose caching /vagrant/server/node_modules/negotiator/package.json
+verbose loadDefaults negotiator@0.4.9
+verbose caching /vagrant/server/node_modules/form-data/package.json
+verbose loadDefaults form-data@0.1.3
+verbose caching /vagrant/server/node_modules/send/package.json
+verbose loadDefaults send@0.9.3
+verbose caching /vagrant/server/node_modules/falafel/package.json
+verbose loadDefaults falafel@1.2.0
+verbose caching /vagrant/server/node_modules/cookie-parser/package.json
+verbose loadDefaults cookie-parser@1.3.5
+verbose caching /vagrant/server/node_modules/pause/package.json
+verbose loadDefaults pause@0.0.1
+verbose caching /vagrant/server/node_modules/concat-map/package.json
+verbose loadDefaults concat-map@0.0.1
+verbose caching /vagrant/server/node_modules/semver/package.json
+verbose loadDefaults semver@3.0.1
+verbose caching /vagrant/server/node_modules/kerberos/package.json
+verbose loadDefaults kerberos@0.0.11
+verbose caching /vagrant/server/node_modules/date-time/package.json
+verbose loadDefaults date-time@0.1.1
+verbose caching /vagrant/server/node_modules/delayed-stream/package.json
+verbose caching /vagrant/server/node_modules/parseurl/package.json
+verbose loadDefaults parseurl@1.3.1
+verbose caching /vagrant/server/node_modules/tiny-lr-fork/package.json
+verbose loadDefaults tiny-lr-fork@0.0.5
+verbose caching /vagrant/server/node_modules/iconv-lite/package.json
+verbose loadDefaults iconv-lite@0.4.4
+verbose caching /vagrant/server/node_modules/fresh/package.json
+verbose loadDefaults fresh@0.2.4
+verbose caching /vagrant/server/node_modules/core-util-is/package.json
+verbose loadDefaults core-util-is@1.0.2
+verbose caching /vagrant/server/node_modules/bson/package.json
+verbose loadDefaults bson@0.2.22
+verbose caching /vagrant/server/node_modules/jsonfile/package.json
+verbose loadDefaults jsonfile@1.1.1
+verbose caching /vagrant/server/node_modules/combined-stream/package.json
+verbose loadDefaults combined-stream@0.0.7
+verbose caching /vagrant/server/node_modules/yargs/package.json
+verbose loadDefaults yargs@3.5.4
+verbose caching /vagrant/server/node_modules/transformers/package.json
+verbose loadDefaults transformers@2.1.0
+verbose caching /vagrant/server/node_modules/i18next/package.json
+verbose loadDefaults i18next@1.10.6
+verbose caching /vagrant/server/node_modules/void-elements/package.json
+verbose loadDefaults void-elements@1.0.0
+verbose caching /vagrant/server/node_modules/through2/package.json
+verbose loadDefaults through2@0.6.5
+verbose caching /vagrant/server/node_modules/buffer-crc32/package.json
+verbose loadDefaults buffer-crc32@0.2.1
+verbose caching /vagrant/server/node_modules/lru-cache/package.json
+verbose loadDefaults lru-cache@2.7.3
+verbose caching /vagrant/server/node_modules/proxy-addr/package.json
+verbose loadDefaults proxy-addr@1.0.10
+verbose caching /vagrant/server/node_modules/destroy/package.json
+verbose loadDefaults destroy@1.0.3
+verbose caching /vagrant/server/node_modules/minimist/package.json
+verbose loadDefaults minimist@0.0.8
+verbose caching /vagrant/server/node_modules/ansi-styles/package.json
+verbose loadDefaults ansi-styles@1.0.0
+verbose caching /vagrant/server/node_modules/dateformat/package.json
+verbose caching /vagrant/server/node_modules/rimraf/package.json
+verbose loadDefaults rimraf@2.2.8
+verbose caching /vagrant/server/node_modules/acorn/package.json
+verbose loadDefaults acorn@1.2.2
+verbose caching /vagrant/server/node_modules/gaze/package.json
+verbose loadDefaults gaze@0.3.4
+verbose from cache /vagrant/server/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /vagrant/server/node_modules/fileset/package.json
+verbose from cache /vagrant/server/node_modules/mustache/package.json
+verbose from cache /vagrant/server/node_modules/grunt-legacy-util/package.json
+verbose from cache /vagrant/server/node_modules/nan/package.json
+verbose from cache /vagrant/server/node_modules/qs/package.json
+verbose from cache /vagrant/server/node_modules/foreach/package.json
+verbose from cache /vagrant/server/node_modules/fs-extra/package.json
+verbose from cache /vagrant/server/node_modules/jasmine-reporters/package.json
+verbose from cache /vagrant/server/node_modules/is-promise/package.json
+verbose from cache /vagrant/server/node_modules/cookiejar/package.json
+verbose from cache /vagrant/server/node_modules/process-nextick-args/package.json
+verbose from cache /vagrant/server/node_modules/dargs/package.json
+verbose from cache /vagrant/server/node_modules/xtend/package.json
+verbose from cache /vagrant/server/node_modules/brace-expansion/package.json
+verbose from cache /vagrant/server/node_modules/passport-local/package.json
+verbose from cache /vagrant/server/node_modules/source-map/package.json
+verbose from cache /vagrant/server/node_modules/esmangle-evaluator/package.json
+verbose from cache /vagrant/server/node_modules/i18next-client/package.json
+verbose from cache /vagrant/server/node_modules/autoprefixer/package.json
+verbose from cache /vagrant/server/node_modules/tmp/package.json
+verbose from cache /vagrant/server/node_modules/express-session/package.json
+verbose from cache /vagrant/server/node_modules/strip-ansi/package.json
+verbose from cache /vagrant/server/node_modules/private/package.json
+verbose from cache /vagrant/server/node_modules/mime-types/package.json
+verbose from cache /vagrant/server/node_modules/serve-favicon/package.json
+verbose from cache /vagrant/server/node_modules/promise/package.json
+verbose from cache /vagrant/server/node_modules/pkginfo/package.json
+verbose from cache /vagrant/server/node_modules/character-parser/package.json
+verbose from cache /vagrant/server/node_modules/promised-io/package.json
+verbose from cache /vagrant/server/node_modules/grunt-legacy-log/package.json
+verbose from cache /vagrant/server/node_modules/ejs/package.json
+verbose from cache /vagrant/server/node_modules/reduce-component/package.json
+verbose from cache /vagrant/server/node_modules/wordwrap/package.json
+verbose from cache /vagrant/server/node_modules/lodash/package.json
+verbose from cache /vagrant/server/node_modules/requirejs/package.json
+verbose from cache /vagrant/server/node_modules/merge-descriptors/package.json
+verbose from cache /vagrant/server/node_modules/camelcase/package.json
+verbose from cache /vagrant/server/node_modules/supports-color/package.json
+verbose from cache /vagrant/server/node_modules/recast/package.json
+verbose from cache /vagrant/server/node_modules/component-emitter/package.json
+verbose from cache /vagrant/server/node_modules/grunt-legacy-log-utils/package.json
+verbose from cache /vagrant/server/node_modules/expect.js/package.json
+verbose from cache /vagrant/server/node_modules/nopt/package.json
+verbose from cache /vagrant/server/node_modules/optimist/package.json
+verbose from cache /vagrant/server/node_modules/oauth/package.json
+verbose from cache /vagrant/server/node_modules/morgan/package.json
+verbose from cache /vagrant/server/node_modules/mocha/package.json
+verbose from cache /vagrant/server/node_modules/escape-html/package.json
+verbose from cache /vagrant/server/node_modules/keygrip/package.json
+verbose from cache /vagrant/server/node_modules/minimatch/package.json
+verbose from cache /vagrant/server/node_modules/paypal-rest-sdk/package.json
+verbose from cache /vagrant/server/node_modules/js-yaml/package.json
+verbose from cache /vagrant/server/node_modules/constantinople/package.json
+verbose from cache /vagrant/server/node_modules/uuid/package.json
+verbose from cache /vagrant/server/node_modules/mongoose/package.json
+verbose from cache /vagrant/server/node_modules/cookies/package.json
+verbose from cache /vagrant/server/node_modules/gaze/package.json
+verbose from cache /vagrant/server/node_modules/decamelize/package.json
+verbose from cache /vagrant/server/node_modules/rimraf/package.json
+verbose from cache /vagrant/server/node_modules/which/package.json
+verbose from cache /vagrant/server/node_modules/formidable/package.json
+verbose from cache /vagrant/server/node_modules/ee-first/package.json
+verbose from cache /vagrant/server/node_modules/mquery/package.json
+verbose from cache /vagrant/server/node_modules/growl/package.json
+verbose from cache /vagrant/server/node_modules/on-finished/package.json
+verbose from cache /vagrant/server/node_modules/uid2/package.json
+verbose from cache /vagrant/server/node_modules/faye-websocket/package.json
+verbose from cache /vagrant/server/node_modules/type-is/package.json
+verbose from cache /vagrant/server/node_modules/express-handlebars/package.json
+verbose from cache /vagrant/server/node_modules/crc/package.json
+verbose from cache /vagrant/server/node_modules/eventemitter2/package.json
+verbose from cache /vagrant/server/node_modules/body-parser/package.json
+verbose from cache /vagrant/server/node_modules/passport-strategy/package.json
+verbose from cache /vagrant/server/node_modules/passport-facebook/package.json
+verbose from cache /vagrant/server/node_modules/base64-js/package.json
+verbose from cache /vagrant/server/node_modules/wrappy/package.json
+verbose from cache /vagrant/server/node_modules/globule/package.json
+verbose from cache /vagrant/server/node_modules/muri/package.json
+verbose from cache /vagrant/server/node_modules/escape-string-regexp/package.json
+verbose from cache /vagrant/server/node_modules/mpromise/package.json
+verbose from cache /vagrant/server/node_modules/mongodb/package.json
+verbose from cache /vagrant/server/node_modules/sliced/package.json
+verbose from cache /vagrant/server/node_modules/path-to-regexp/package.json
+verbose from cache /vagrant/server/node_modules/text-table/package.json
+verbose from cache /vagrant/server/node_modules/bcrypt-nodejs/package.json
+verbose from cache /vagrant/server/node_modules/asap/package.json
+verbose from cache /vagrant/server/node_modules/utils-merge/package.json
+verbose from cache /vagrant/server/node_modules/serve-static/package.json
+verbose from cache /vagrant/server/node_modules/grunt-contrib-watch/package.json
+verbose from cache /vagrant/server/node_modules/uglify-js/package.json
+verbose from cache /vagrant/server/node_modules/mpath/package.json
+verbose from cache /vagrant/server/node_modules/ipaddr.js/package.json
+verbose from cache /vagrant/server/node_modules/coffee-script/package.json
+verbose from cache /vagrant/server/node_modules/bluebird/package.json
+verbose from cache /vagrant/server/node_modules/grunt-autoprefixer/package.json
+verbose from cache /vagrant/server/node_modules/uglify-to-browserify/package.json
+verbose from cache /vagrant/server/node_modules/abbrev/package.json
+verbose from cache /vagrant/server/node_modules/object-keys/package.json
+verbose from cache /vagrant/server/node_modules/colors/package.json
+verbose from cache /vagrant/server/node_modules/pretty-ms/package.json
+verbose from cache /vagrant/server/node_modules/exit/package.json
+verbose from cache /vagrant/server/node_modules/time-grunt/package.json
+verbose from cache /vagrant/server/node_modules/isarray/package.json
+verbose from cache /vagrant/server/node_modules/json5/package.json
+verbose from cache /vagrant/server/node_modules/esprima/package.json
+verbose from cache /vagrant/server/node_modules/methods/package.json
+verbose from cache /vagrant/server/node_modules/css/package.json
+verbose from cache /vagrant/server/node_modules/bytes/package.json
+verbose from cache /vagrant/server/node_modules/etag/package.json
+verbose from cache /vagrant/server/node_modules/css-parse/package.json
+verbose from cache /vagrant/server/node_modules/multimatch/package.json
+verbose from cache /vagrant/server/node_modules/underscore.string/package.json
+verbose from cache /vagrant/server/node_modules/sprintf/package.json
+verbose from cache /vagrant/server/node_modules/superagent/package.json
+verbose from cache /vagrant/server/node_modules/caniuse-db/package.json
+verbose from cache /vagrant/server/node_modules/passport-oauth2/package.json
+verbose from cache /vagrant/server/node_modules/debug/package.json
+verbose from cache /vagrant/server/node_modules/once/package.json
+verbose from cache /vagrant/server/node_modules/validator/package.json
+verbose from cache /vagrant/server/node_modules/inflight/package.json
+verbose from cache /vagrant/server/node_modules/inherits/package.json
+verbose from cache /vagrant/server/node_modules/basic-auth/package.json
+verbose from cache /vagrant/server/node_modules/handlebars/package.json
+verbose from cache /vagrant/server/node_modules/mkdirp/package.json
+verbose from cache /vagrant/server/node_modules/chalk/package.json
+verbose from cache /vagrant/server/node_modules/jade/package.json
+verbose from cache /vagrant/server/node_modules/glob/package.json
+verbose from cache /vagrant/server/node_modules/util-deprecate/package.json
+verbose from cache /vagrant/server/node_modules/accepts/package.json
+verbose from cache /vagrant/server/node_modules/grunt-contrib-compass/package.json
+verbose from cache /vagrant/server/node_modules/monocle/package.json
+verbose from cache /vagrant/server/node_modules/balanced-match/package.json
+verbose from cache /vagrant/server/node_modules/amdefine/package.json
+verbose from cache /vagrant/server/node_modules/has-color/package.json
+verbose from cache /vagrant/server/node_modules/jasmine-node-karma/package.json
+verbose from cache /vagrant/server/node_modules/load-grunt-tasks/package.json
+verbose from cache /vagrant/server/node_modules/extend/package.json
+verbose from cache /vagrant/server/node_modules/passport/package.json
+verbose from cache /vagrant/server/node_modules/hooker/package.json
+verbose from cache /vagrant/server/node_modules/with/package.json
+verbose from cache /vagrant/server/node_modules/hooks/package.json
+verbose from cache /vagrant/server/node_modules/ncp/package.json
+verbose from cache /vagrant/server/node_modules/media-typer/package.json
+verbose from cache /vagrant/server/node_modules/forwarded/package.json
+verbose from cache /vagrant/server/node_modules/ms/package.json
+verbose from cache /vagrant/server/node_modules/vary/package.json
+verbose from cache /vagrant/server/node_modules/graceful-fs/package.json
+verbose from cache /vagrant/server/node_modules/diff/package.json
+verbose from cache /vagrant/server/node_modules/underscore/package.json
+verbose from cache /vagrant/server/node_modules/cookie-signature/package.json
+verbose from cache /vagrant/server/node_modules/unreachable-branch-transform/package.json
+verbose from cache /vagrant/server/node_modules/path-is-absolute/package.json
+verbose from cache /vagrant/server/node_modules/readable-stream/package.json
+verbose from cache /vagrant/server/node_modules/grunt/package.json
+verbose from cache /vagrant/server/node_modules/window-size/package.json
+verbose from cache /vagrant/server/node_modules/walkdir/package.json
+verbose from cache /vagrant/server/node_modules/finalhandler/package.json
+verbose from cache /vagrant/server/node_modules/argparse/package.json
+verbose from cache /vagrant/server/node_modules/mime-db/package.json
+verbose from cache /vagrant/server/node_modules/getobject/package.json
+verbose from cache /vagrant/server/node_modules/express/package.json
+verbose from cache /vagrant/server/node_modules/mime/package.json
+verbose from cache /vagrant/server/node_modules/string_decoder/package.json
+verbose from cache /vagrant/server/node_modules/range-parser/package.json
+verbose from cache /vagrant/server/node_modules/readdirp/package.json
+verbose from cache /vagrant/server/node_modules/depd/package.json
+verbose from cache /vagrant/server/node_modules/findup-sync/package.json
+verbose from cache /vagrant/server/node_modules/raw-body/package.json
+verbose from cache /vagrant/server/node_modules/regexp-clone/package.json
+verbose from cache /vagrant/server/node_modules/noptify/package.json
+verbose from cache /vagrant/server/node_modules/postcss/package.json
+verbose from cache /vagrant/server/node_modules/inline-process-browser/package.json
+verbose from cache /vagrant/server/node_modules/acorn/package.json
+verbose from cache /vagrant/server/node_modules/connect-flash/package.json
+verbose from cache /vagrant/server/node_modules/async/package.json
+verbose from cache /vagrant/server/node_modules/i18n/package.json
+verbose from cache /vagrant/server/node_modules/cookie/package.json
+verbose from cache /vagrant/server/node_modules/css-stringify/package.json
+verbose from cache /vagrant/server/node_modules/ast-types/package.json
+verbose from cache /vagrant/server/node_modules/negotiator/package.json
+verbose from cache /vagrant/server/node_modules/sigmund/package.json
+verbose from cache /vagrant/server/node_modules/falafel/package.json
+verbose from cache /vagrant/server/node_modules/commander/package.json
+verbose from cache /vagrant/server/node_modules/kerberos/package.json
+verbose from cache /vagrant/server/node_modules/form-data/package.json
+verbose from cache /vagrant/server/node_modules/delayed-stream/package.json
+verbose from cache /vagrant/server/node_modules/send/package.json
+verbose from cache /vagrant/server/node_modules/concat-map/package.json
+verbose from cache /vagrant/server/node_modules/cookie-parser/package.json
+verbose from cache /vagrant/server/node_modules/tiny-lr-fork/package.json
+verbose from cache /vagrant/server/node_modules/pause/package.json
+verbose from cache /vagrant/server/node_modules/semver/package.json
+verbose from cache /vagrant/server/node_modules/fresh/package.json
+verbose from cache /vagrant/server/node_modules/bson/package.json
+verbose from cache /vagrant/server/node_modules/date-time/package.json
+verbose from cache /vagrant/server/node_modules/parseurl/package.json
+verbose from cache /vagrant/server/node_modules/combined-stream/package.json
+verbose from cache /vagrant/server/node_modules/iconv-lite/package.json
+verbose from cache /vagrant/server/node_modules/jsonfile/package.json
+verbose from cache /vagrant/server/node_modules/core-util-is/package.json
+verbose from cache /vagrant/server/node_modules/transformers/package.json
+verbose from cache /vagrant/server/node_modules/void-elements/package.json
+verbose from cache /vagrant/server/node_modules/lru-cache/package.json
+verbose from cache /vagrant/server/node_modules/yargs/package.json
+verbose from cache /vagrant/server/node_modules/buffer-crc32/package.json
+verbose from cache /vagrant/server/node_modules/destroy/package.json
+verbose from cache /vagrant/server/node_modules/i18next/package.json
+verbose from cache /vagrant/server/node_modules/through2/package.json
+verbose from cache /vagrant/server/node_modules/proxy-addr/package.json
+verbose from cache /vagrant/server/node_modules/minimist/package.json
+verbose from cache /vagrant/server/node_modules/dateformat/package.json
+verbose from cache /vagrant/server/node_modules/ansi-styles/package.json
+verbose already installed in /vagrant/server skipping passport-local@~0.1.6
+verbose cache add [ 'paypal-rest-sdk@^1.3.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'paypal-rest-sdk@^1.3.1',
+silly cache add: name, spec, args   [ 'paypal-rest-sdk@^1.3.1', null ] ]
+verbose parsed url { pathname: 'paypal-rest-sdk@^1.3.1',
+verbose parsed url   path: 'paypal-rest-sdk@^1.3.1',
+verbose parsed url   href: 'paypal-rest-sdk@^1.3.1' }
+silly cache add: name, spec, args [ 'paypal-rest-sdk', '^1.3.1', [ 'paypal-rest-sdk', '^1.3.1' ] ]
+verbose parsed url { pathname: '^1.3.1', path: '^1.3.1', href: '^1.3.1' }
+verbose addNamed [ 'paypal-rest-sdk', '^1.3.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'paypal-rest-sdk', '^1.3.1' ]
+verbose raw, before any munging paypal-rest-sdk
+verbose url resolving [ 'https://registry.npmjs.org/', './paypal-rest-sdk' ]
+verbose url resolved https://registry.npmjs.org/paypal-rest-sdk
+http GET https://registry.npmjs.org/paypal-rest-sdk
+verbose cache add [ 'superagent@^0.21.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'superagent@^0.21.0',
+silly cache add: name, spec, args   [ 'superagent@^0.21.0', null ] ]
+verbose parsed url { pathname: 'superagent@^0.21.0',
+verbose parsed url   path: 'superagent@^0.21.0',
+verbose parsed url   href: 'superagent@^0.21.0' }
+silly cache add: name, spec, args [ 'superagent', '^0.21.0', [ 'superagent', '^0.21.0' ] ]
+verbose parsed url { pathname: '^0.21.0', path: '^0.21.0', href: '^0.21.0' }
+verbose addNamed [ 'superagent', '^0.21.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'superagent', '^0.21.0' ]
+verbose cache add [ 'promised-io@latest', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'promised-io@latest',
+silly cache add: name, spec, args   [ 'promised-io@latest', null ] ]
+verbose parsed url { pathname: 'promised-io@latest',
+verbose parsed url   path: 'promised-io@latest',
+verbose parsed url   href: 'promised-io@latest' }
+silly cache add: name, spec, args [ 'promised-io', 'latest', [ 'promised-io', 'latest' ] ]
+verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+verbose addNamed [ 'promised-io', 'latest' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'promised-io', 'latest' ]
+verbose cache add [ 'time-grunt@^0.3.1', null ]
+silly cache add: name, spec, args [ undefined, 'time-grunt@^0.3.1', [ 'time-grunt@^0.3.1', null ] ]
+verbose parsed url { pathname: 'time-grunt@^0.3.1',
+verbose parsed url   path: 'time-grunt@^0.3.1',
+verbose parsed url   href: 'time-grunt@^0.3.1' }
+silly cache add: name, spec, args [ 'time-grunt', '^0.3.1', [ 'time-grunt', '^0.3.1' ] ]
+verbose parsed url { pathname: '^0.3.1', path: '^0.3.1', href: '^0.3.1' }
+verbose addNamed [ 'time-grunt', '^0.3.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'time-grunt', '^0.3.1' ]
+verbose already installed in /vagrant/server skipping serve-favicon@~2.1.3
+verbose cache add [ 'validator@^3.28.0', null ]
+silly cache add: name, spec, args [ undefined, 'validator@^3.28.0', [ 'validator@^3.28.0', null ] ]
+verbose parsed url { pathname: 'validator@^3.28.0',
+verbose parsed url   path: 'validator@^3.28.0',
+verbose parsed url   href: 'validator@^3.28.0' }
+silly cache add: name, spec, args [ 'validator', '^3.28.0', [ 'validator', '^3.28.0' ] ]
+verbose parsed url { pathname: '^3.28.0', path: '^3.28.0', href: '^3.28.0' }
+verbose addNamed [ 'validator', '^3.28.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'validator', '^3.28.0' ]
+verbose cache add [ 'grunt-contrib-watch@^0.6.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'grunt-contrib-watch@^0.6.1',
+silly cache add: name, spec, args   [ 'grunt-contrib-watch@^0.6.1', null ] ]
+verbose parsed url { pathname: 'grunt-contrib-watch@^0.6.1',
+verbose parsed url   path: 'grunt-contrib-watch@^0.6.1',
+verbose parsed url   href: 'grunt-contrib-watch@^0.6.1' }
+silly cache add: name, spec, args [ 'grunt-contrib-watch',
+silly cache add: name, spec, args   '^0.6.1',
+silly cache add: name, spec, args   [ 'grunt-contrib-watch', '^0.6.1' ] ]
+verbose parsed url { pathname: '^0.6.1', path: '^0.6.1', href: '^0.6.1' }
+verbose addNamed [ 'grunt-contrib-watch', '^0.6.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'grunt-contrib-watch', '^0.6.1' ]
+verbose cache add [ 'bcrypt-nodejs@latest', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'bcrypt-nodejs@latest',
+silly cache add: name, spec, args   [ 'bcrypt-nodejs@latest', null ] ]
+verbose parsed url { pathname: 'bcrypt-nodejs@latest',
+verbose parsed url   path: 'bcrypt-nodejs@latest',
+verbose parsed url   href: 'bcrypt-nodejs@latest' }
+silly cache add: name, spec, args [ 'bcrypt-nodejs', 'latest', [ 'bcrypt-nodejs', 'latest' ] ]
+verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+verbose addNamed [ 'bcrypt-nodejs', 'latest' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'bcrypt-nodejs', 'latest' ]
+verbose already installed in /vagrant/server skipping body-parser@~1.8.1
+verbose already installed in /vagrant/server skipping connect-flash@~0.1.1
+verbose already installed in /vagrant/server skipping cookie-parser@~1.3.3
+verbose raw, before any munging superagent
+verbose url resolving [ 'https://registry.npmjs.org/', './superagent' ]
+verbose url resolved https://registry.npmjs.org/superagent
+http GET https://registry.npmjs.org/superagent
+verbose raw, before any munging promised-io
+verbose url resolving [ 'https://registry.npmjs.org/', './promised-io' ]
+verbose url resolved https://registry.npmjs.org/promised-io
+http GET https://registry.npmjs.org/promised-io
+verbose raw, before any munging time-grunt
+verbose url resolving [ 'https://registry.npmjs.org/', './time-grunt' ]
+verbose url resolved https://registry.npmjs.org/time-grunt
+http GET https://registry.npmjs.org/time-grunt
+verbose raw, before any munging validator
+verbose url resolving [ 'https://registry.npmjs.org/', './validator' ]
+verbose url resolved https://registry.npmjs.org/validator
+http GET https://registry.npmjs.org/validator
+verbose raw, before any munging grunt-contrib-watch
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+http GET https://registry.npmjs.org/grunt-contrib-watch
+verbose raw, before any munging bcrypt-nodejs
+verbose url resolving [ 'https://registry.npmjs.org/', './bcrypt-nodejs' ]
+verbose url resolved https://registry.npmjs.org/bcrypt-nodejs
+http GET https://registry.npmjs.org/bcrypt-nodejs
+verbose already installed in /vagrant/server skipping ejs@2.1.4
+verbose cache add [ 'expect.js@^0.3.1', null ]
+silly cache add: name, spec, args [ undefined, 'expect.js@^0.3.1', [ 'expect.js@^0.3.1', null ] ]
+verbose parsed url { pathname: 'expect.js@^0.3.1',
+verbose parsed url   path: 'expect.js@^0.3.1',
+verbose parsed url   href: 'expect.js@^0.3.1' }
+silly cache add: name, spec, args [ 'expect.js', '^0.3.1', [ 'expect.js', '^0.3.1' ] ]
+verbose parsed url { pathname: '^0.3.1', path: '^0.3.1', href: '^0.3.1' }
+verbose addNamed [ 'expect.js', '^0.3.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'expect.js', '^0.3.1' ]
+verbose already installed in /vagrant/server skipping debug@~2.0.0
+verbose already installed in /vagrant/server skipping express@~4.9.0
+verbose cache add [ 'express-handlebars@^1.1.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'express-handlebars@^1.1.0',
+silly cache add: name, spec, args   [ 'express-handlebars@^1.1.0', null ] ]
+verbose parsed url { pathname: 'express-handlebars@^1.1.0',
+verbose parsed url   path: 'express-handlebars@^1.1.0',
+verbose parsed url   href: 'express-handlebars@^1.1.0' }
+silly cache add: name, spec, args [ 'express-handlebars',
+silly cache add: name, spec, args   '^1.1.0',
+silly cache add: name, spec, args   [ 'express-handlebars', '^1.1.0' ] ]
+verbose parsed url { pathname: '^1.1.0', path: '^1.1.0', href: '^1.1.0' }
+verbose addNamed [ 'express-handlebars', '^1.1.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'express-handlebars', '^1.1.0' ]
+verbose cache add [ 'express-session@^1.0.4', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'express-session@^1.0.4',
+silly cache add: name, spec, args   [ 'express-session@^1.0.4', null ] ]
+verbose parsed url { pathname: 'express-session@^1.0.4',
+verbose parsed url   path: 'express-session@^1.0.4',
+verbose parsed url   href: 'express-session@^1.0.4' }
+silly cache add: name, spec, args [ 'express-session', '^1.0.4', [ 'express-session', '^1.0.4' ] ]
+verbose parsed url { pathname: '^1.0.4', path: '^1.0.4', href: '^1.0.4' }
+verbose addNamed [ 'express-session', '^1.0.4' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'express-session', '^1.0.4' ]
+verbose cache add [ 'grunt@^0.4.1', null ]
+silly cache add: name, spec, args [ undefined, 'grunt@^0.4.1', [ 'grunt@^0.4.1', null ] ]
+verbose parsed url { pathname: 'grunt@^0.4.1',
+verbose parsed url   path: 'grunt@^0.4.1',
+verbose parsed url   href: 'grunt@^0.4.1' }
+silly cache add: name, spec, args [ 'grunt', '^0.4.1', [ 'grunt', '^0.4.1' ] ]
+verbose parsed url { pathname: '^0.4.1', path: '^0.4.1', href: '^0.4.1' }
+verbose addNamed [ 'grunt', '^0.4.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'grunt', '^0.4.1' ]
+verbose cache add [ 'grunt-autoprefixer@^0.7.3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'grunt-autoprefixer@^0.7.3',
+silly cache add: name, spec, args   [ 'grunt-autoprefixer@^0.7.3', null ] ]
+verbose parsed url { pathname: 'grunt-autoprefixer@^0.7.3',
+verbose parsed url   path: 'grunt-autoprefixer@^0.7.3',
+verbose parsed url   href: 'grunt-autoprefixer@^0.7.3' }
+silly cache add: name, spec, args [ 'grunt-autoprefixer',
+silly cache add: name, spec, args   '^0.7.3',
+silly cache add: name, spec, args   [ 'grunt-autoprefixer', '^0.7.3' ] ]
+verbose parsed url { pathname: '^0.7.3', path: '^0.7.3', href: '^0.7.3' }
+verbose addNamed [ 'grunt-autoprefixer', '^0.7.3' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'grunt-autoprefixer', '^0.7.3' ]
+verbose cache add [ 'grunt-contrib-compass@^0.7.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'grunt-contrib-compass@^0.7.2',
+silly cache add: name, spec, args   [ 'grunt-contrib-compass@^0.7.2', null ] ]
+verbose parsed url { pathname: 'grunt-contrib-compass@^0.7.2',
+verbose parsed url   path: 'grunt-contrib-compass@^0.7.2',
+verbose parsed url   href: 'grunt-contrib-compass@^0.7.2' }
+silly cache add: name, spec, args [ 'grunt-contrib-compass',
+silly cache add: name, spec, args   '^0.7.2',
+silly cache add: name, spec, args   [ 'grunt-contrib-compass', '^0.7.2' ] ]
+verbose parsed url { pathname: '^0.7.2', path: '^0.7.2', href: '^0.7.2' }
+verbose addNamed [ 'grunt-contrib-compass', '^0.7.2' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'grunt-contrib-compass', '^0.7.2' ]
+verbose cache add [ 'i18n@^0.5.0', null ]
+silly cache add: name, spec, args [ undefined, 'i18n@^0.5.0', [ 'i18n@^0.5.0', null ] ]
+verbose parsed url { pathname: 'i18n@^0.5.0',
+verbose parsed url   path: 'i18n@^0.5.0',
+verbose parsed url   href: 'i18n@^0.5.0' }
+silly cache add: name, spec, args [ 'i18n', '^0.5.0', [ 'i18n', '^0.5.0' ] ]
+verbose parsed url { pathname: '^0.5.0', path: '^0.5.0', href: '^0.5.0' }
+verbose addNamed [ 'i18n', '^0.5.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'i18n', '^0.5.0' ]
+verbose cache add [ 'i18next@^1.7.9', null ]
+silly cache add: name, spec, args [ undefined, 'i18next@^1.7.9', [ 'i18next@^1.7.9', null ] ]
+verbose parsed url { pathname: 'i18next@^1.7.9',
+verbose parsed url   path: 'i18next@^1.7.9',
+verbose parsed url   href: 'i18next@^1.7.9' }
+silly cache add: name, spec, args [ 'i18next', '^1.7.9', [ 'i18next', '^1.7.9' ] ]
+verbose parsed url { pathname: '^1.7.9', path: '^1.7.9', href: '^1.7.9' }
+verbose addNamed [ 'i18next', '^1.7.9' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'i18next', '^1.7.9' ]
+verbose already installed in /vagrant/server skipping jade@~1.6.0
+verbose cache add [ 'jasmine-node-karma@^1.6.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'jasmine-node-karma@^1.6.1',
+silly cache add: name, spec, args   [ 'jasmine-node-karma@^1.6.1', null ] ]
+verbose parsed url { pathname: 'jasmine-node-karma@^1.6.1',
+verbose parsed url   path: 'jasmine-node-karma@^1.6.1',
+verbose parsed url   href: 'jasmine-node-karma@^1.6.1' }
+silly cache add: name, spec, args [ 'jasmine-node-karma',
+silly cache add: name, spec, args   '^1.6.1',
+silly cache add: name, spec, args   [ 'jasmine-node-karma', '^1.6.1' ] ]
+verbose parsed url { pathname: '^1.6.1', path: '^1.6.1', href: '^1.6.1' }
+verbose addNamed [ 'jasmine-node-karma', '^1.6.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'jasmine-node-karma', '^1.6.1' ]
+verbose cache add [ 'load-grunt-tasks@^0.4.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'load-grunt-tasks@^0.4.0',
+silly cache add: name, spec, args   [ 'load-grunt-tasks@^0.4.0', null ] ]
+verbose parsed url { pathname: 'load-grunt-tasks@^0.4.0',
+verbose parsed url   path: 'load-grunt-tasks@^0.4.0',
+verbose parsed url   href: 'load-grunt-tasks@^0.4.0' }
+silly cache add: name, spec, args [ 'load-grunt-tasks',
+silly cache add: name, spec, args   '^0.4.0',
+silly cache add: name, spec, args   [ 'load-grunt-tasks', '^0.4.0' ] ]
+verbose parsed url { pathname: '^0.4.0', path: '^0.4.0', href: '^0.4.0' }
+verbose addNamed [ 'load-grunt-tasks', '^0.4.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'load-grunt-tasks', '^0.4.0' ]
+verbose cache add [ 'mocha@^2.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'mocha@^2.1.0', [ 'mocha@^2.1.0', null ] ]
+verbose parsed url { pathname: 'mocha@^2.1.0',
+verbose parsed url   path: 'mocha@^2.1.0',
+verbose parsed url   href: 'mocha@^2.1.0' }
+silly cache add: name, spec, args [ 'mocha', '^2.1.0', [ 'mocha', '^2.1.0' ] ]
+verbose parsed url { pathname: '^2.1.0', path: '^2.1.0', href: '^2.1.0' }
+verbose addNamed [ 'mocha', '^2.1.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'mocha', '^2.1.0' ]
+verbose already installed in /vagrant/server skipping mongoose@~3.8.20
+verbose already installed in /vagrant/server skipping morgan@~1.3.0
+verbose already installed in /vagrant/server skipping passport@~0.1.17
+verbose already installed in /vagrant/server skipping passport-facebook@~1.0.2
+verbose raw, before any munging expect.js
+verbose url resolving [ 'https://registry.npmjs.org/', './expect.js' ]
+verbose url resolved https://registry.npmjs.org/expect.js
+http GET https://registry.npmjs.org/expect.js
+verbose raw, before any munging express-handlebars
+verbose url resolving [ 'https://registry.npmjs.org/', './express-handlebars' ]
+verbose url resolved https://registry.npmjs.org/express-handlebars
+http GET https://registry.npmjs.org/express-handlebars
+verbose raw, before any munging express-session
+verbose url resolving [ 'https://registry.npmjs.org/', './express-session' ]
+verbose url resolved https://registry.npmjs.org/express-session
+http GET https://registry.npmjs.org/express-session
+verbose raw, before any munging grunt
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+verbose url resolved https://registry.npmjs.org/grunt
+http GET https://registry.npmjs.org/grunt
+verbose raw, before any munging grunt-autoprefixer
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-autoprefixer' ]
+verbose url resolved https://registry.npmjs.org/grunt-autoprefixer
+http GET https://registry.npmjs.org/grunt-autoprefixer
+verbose raw, before any munging grunt-contrib-compass
+verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-compass' ]
+verbose url resolved https://registry.npmjs.org/grunt-contrib-compass
+http GET https://registry.npmjs.org/grunt-contrib-compass
+verbose raw, before any munging i18n
+verbose url resolving [ 'https://registry.npmjs.org/', './i18n' ]
+verbose url resolved https://registry.npmjs.org/i18n
+http GET https://registry.npmjs.org/i18n
+verbose raw, before any munging i18next
+verbose url resolving [ 'https://registry.npmjs.org/', './i18next' ]
+verbose url resolved https://registry.npmjs.org/i18next
+http GET https://registry.npmjs.org/i18next
+verbose raw, before any munging jasmine-node-karma
+verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-node-karma' ]
+verbose url resolved https://registry.npmjs.org/jasmine-node-karma
+http GET https://registry.npmjs.org/jasmine-node-karma
+verbose raw, before any munging load-grunt-tasks
+verbose url resolving [ 'https://registry.npmjs.org/', './load-grunt-tasks' ]
+verbose url resolved https://registry.npmjs.org/load-grunt-tasks
+http GET https://registry.npmjs.org/load-grunt-tasks
+verbose raw, before any munging mocha
+verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+verbose url resolved https://registry.npmjs.org/mocha
+http GET https://registry.npmjs.org/mocha
+ERR! Error: failed to fetch from registry: superagent
+ERR!     at /usr/share/npm/lib/utils/npm-registry-client/get.js:139:12
+ERR!     at cb (/usr/share/npm/lib/utils/npm-registry-client/request.js:31:9)
+ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:136:18)
+ERR!     at Request.callback (/usr/lib/nodejs/request/main.js:119:22)
+ERR!     at Request.<anonymous> (/usr/lib/nodejs/request/main.js:212:58)
+ERR!     at Request.emit (events.js:88:20)
+ERR!     at ClientRequest.<anonymous> (/usr/lib/nodejs/request/main.js:412:12)
+ERR!     at ClientRequest.emit (events.js:67:17)
+ERR!     at HTTPParser.onIncoming (http.js:1261:11)
+ERR!     at HTTPParser.onHeadersComplete (http.js:102:31)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /vagrant/server/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.2.0-23-generic-pae
+ERR! command "node" "/usr/bin/npm" "install"
+ERR! cwd /vagrant/server
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message failed to fetch from registry: superagent
+verbose exit [ 1, true ]

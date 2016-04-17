@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+app	Gruntfile.js	/^    app: require('.\/bower.json').appPath || 'app',$/;"	p	class:module.exports.appConfig
+chromeDriver	test/protractor.conf.js	/^  chromeDriver: null,$/;"	p	class:exports.config
+module.exports	Gruntfile.js	/^module.exports = function (grunt) {$/;"	f
+module.exports	test/karma.conf.js	/^module.exports = function(config) {$/;"	f
+seleniumArgs	test/protractor.conf.js	/^  seleniumArgs: [],$/;"	p	class:exports.config
+seleniumPort	test/protractor.conf.js	/^  seleniumPort: null,$/;"	p	class:exports.config
+seleniumServerJar	test/protractor.conf.js	/^  seleniumServerJar: null,$/;"	p	class:exports.config
